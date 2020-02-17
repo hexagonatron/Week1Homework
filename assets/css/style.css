@@ -13,22 +13,22 @@ body {
 
 /* HEADER */
 
-.header {
+header {
     padding: 20px;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header nav {
+header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,11 +36,11 @@ body {
     font-size: 20px;
 }
 
-.header nav ul {
+header nav ul {
     list-style-type: none;
 }
 
-.header nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -93,18 +93,18 @@ p {
     max-width: 250px;
 }
 
-.content div {
+.content section {
     margin-bottom: 10px;
     background-color: #2589bd;
     padding: 15px;
     color: white;
 }
 
-.content div h2 {
+.content section h2 {
     margin-bottom: 15px;
 }
 
-.content div::after {
+.content section::after {
     content: "";
     display: block;
     clear: both;
